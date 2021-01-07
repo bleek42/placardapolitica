@@ -1,0 +1,12 @@
+<app-politic [politic]="politic" *ngIf="politic"></app-politic>
+
+<h2>Você tem informações a respeito deste tema e deseja compartilhar?</h2>
+<!-- <button mat-button (click)="inform=true" *ngIf="!inform">Informe</button> -->
+
+<section *ngIf="!appStore.user">
+    <app-enter></app-enter>
+</section>
+
+<app-vote-create [politic]="politic" *ngIf="appStore.user" [votes]="votes"></app-vote-create>
+
+<app-votes [votes]="votes" [boardId]="boardId" [politic]="politic"></app-votes>

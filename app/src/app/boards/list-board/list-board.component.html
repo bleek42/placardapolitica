@@ -1,0 +1,13 @@
+<h2>{{'Placares em aberto' | translate}}</h2>
+
+<h3>{{'Encontre temas criados e como estão os resultados.' | translate}}</h3>
+<h4>{{'Não encontrou um tema de interesse?' | translate}} <br />
+
+    <a mat-button *ngIf="!appStore.user" [routerLink]="['/login']">{{'Crie um novo placar' | translate}}</a>
+    <a mat-button *ngIf="appStore.user" [routerLink]="['/boards/create']">{{'Crie um novo placar' | translate}}</a>
+</h4>
+<section>
+    <app-item-board [board]="board" *ngFor="let board of boards"></app-item-board>
+</section>
+
+<!--added translate-->

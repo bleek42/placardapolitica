@@ -1,0 +1,13 @@
+{
+    "createBoard": "Create Board",
+    "name": "Name",
+    "email": "Email",
+    "fullName": "Full Name",
+    "houseRepresentatives": "House of Representatives",
+    "scorePolitic": "Political Scoreboard",
+    "senate": "Senate",
+    "br": "Brazil",
+    "us": "United States",
+    "true": "Yes",
+    "false": "No"
+}

@@ -1,0 +1,27 @@
+.laws {
+    ul {
+        flex-wrap: wrap;
+        background: white;
+        padding: 20px;
+
+        li {
+            max-width: 200px;
+            padding: 20px;
+        }
+    }
+}
+
+.boardtypes {
+    >h3 {
+        font-size: 20px;
+        margin-top: 40px;
+
+    }
+
+   
+
+}
+
+mat-checkbox {
+    font-size: 20px !important;
+}

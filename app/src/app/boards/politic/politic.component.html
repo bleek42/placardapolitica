@@ -1,0 +1,35 @@
+<div class="politic" (click)="openDialog()" *ngIf="politic">
+
+    <div class="img">
+        <img [src]="showimage"
+            alt="Foto de {{politic.name}}" />
+    </div>
+    <div class="info">
+        <div class="name">
+            {{politic.name}}
+        </div>
+
+        <div class="sub">
+            <img 
+            [src]="'assets/partidos/'+ politic.partyId+'.png'"
+            *ngIf="politic.partyId" />
+            <span  *ngIf="!politic.partyName">
+            {{politic.partyName}}
+        </span>
+            {{politic.state}}
+        </div>
+        
+
+        <div class="action">
+            <a *ngIf="politic.voto" [href]="politic.votoLink">{{'Link' | translate}}</a>
+            <!-- <button *ngIf="!politic.voto">Informar</button> -->
+
+            <a class="twitter-share-button"
+                    href="https://twitter.com/intent/tweet?text=Placar da Política: {{politic.name}} reportou sua opiniao a favor/contra neste link: <cole aqui o link aqui>">
+                    {{'Tweet' | translate}}</a>
+
+        </div>
+        
+    </div>
+
+</div>

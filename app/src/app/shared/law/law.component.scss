@@ -1,0 +1,25 @@
+.votations {
+    .item {
+        max-width: 250px;
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+        align-items: initial;
+    align-self: flex-start;
+    }
+
+    .yes{
+        background-color: #0080000a;
+    }
+
+    .no{
+        background-color: #ff00000d;
+    }
+}
+
+.votes{
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}

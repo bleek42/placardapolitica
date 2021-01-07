@@ -1,0 +1,54 @@
+<section>
+
+    <div *ngIf="votes && votes.length ==0 ">
+        <h4>Não temos informações até o momento.</h4>
+    </div>
+
+    <h3 *ngIf="votes && votes.length > 0">Votos</h3>
+    <div class="container flexrow" *ngIf="votes && votes.length > 0">
+
+        <mat-card *ngFor="let vote of votes">
+            <mat-card-header>
+                <mat-card-title>
+                    <span *ngIf="board.valueType == 'currency'">
+                        {{vote.value | currency}}
+                    </span>
+
+                    <span *ngIf="board.valueType == 'date'">
+                        {{vote.value | date}}
+                    </span>
+
+                    <span *ngIf="board.valueType == 'number'">
+                        {{vote.value | number}}
+                    </span>
+
+                    <span *ngIf="board.valueType == 'boolean'">
+                        {{vote.value | translate}}
+                    </span>
+
+                </mat-card-title>
+
+                <mat-card-subtitle>
+                    <a href="{{vote.link}}" target="_new">Link da fonte</a>
+                    <ul>
+                        <li>Criado em: {{vote.date_created | date}}</li>
+                        <li>Status: {{vote.status}}</li>
+                        <li>
+                            <span *ngIf="vote.geo">{{vote.geo.name}}</span>
+                            <span *ngIf="vote.politic">{{vote.politic.name}}</span>
+                        </li>
+                    </ul>
+                </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <p>
+                    {{vote.description}}
+                </p>
+            </mat-card-content>
+            <mat-card-actions *ngIf="owner && vote.status=='open'">
+                <button (click)="changeStatus(vote._id, 'accepted')" mat-button>ACCEPT</button>
+                <button (click)="changeStatus(vote._id, 'rejected')" mat-button>REJECT</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</section>

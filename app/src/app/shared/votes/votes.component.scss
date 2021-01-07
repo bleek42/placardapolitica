@@ -1,0 +1,19 @@
+.container {
+    height: 400px;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+mat-card{
+    max-width: 220px;
+}
+.votations{
+    div{
+        max-width: 150px;
+    }
+}

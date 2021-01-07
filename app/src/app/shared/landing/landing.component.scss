@@ -1,0 +1,18 @@
+header {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0px
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,34 @@
+<section>
+
+    <app-board-header ></app-board-header>
+
+
+    <h2>{{'Veja os dados por estado'  | translate}}</h2>
+
+    <form (ngSubmit)="submit()" class="form">
+
+        <mat-form-field appearance="fill">
+            <mat-label>{{'Selecione um estado' | translate}}</mat-label>
+            <mat-select (selectionChange)="changeState($event)">
+              <mat-option *ngFor="let state of statesArray" [value]="state.coordId">{{state.name}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+
+        <mat-form-field class="example-full-width">
+            <input type="text" placeholder="Encontre uma cidade" aria-label="Number" matInput [formControl]="myControl"
+                [matAutocomplete]="auto">
+            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
+                (optionSelected)="onSelectionChanged($event)" [displayWith]="displayFn">
+                <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                    {{option.name_pt}}
+                </mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+    </form>
+
+    <div id="container"></div>
+
+    <app-votes *ngIf="board" [votes]="votes" [boardId]="boardId" [board]="board" [update]="getCityData.bind(this)"></app-votes>
+
+</section>

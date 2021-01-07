@@ -1,0 +1,62 @@
+$whiteColor: #fafafa;
+
+.card {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: $whiteColor;
+  min-height: 40px;
+  min-width: 200px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card.card-small {
+  height: 16px;
+  width: 168px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  width: 100%;
+  flex-direction: row;
+  .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+  section {
+    flex: 1;
+  }
+  .card:not(.highlight-card):hover {
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+  }
+  .card:not(.highlight-card):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+  }
+  .card:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+.ng-star-inserted:hover {
+  transform: translateY(-3px);
+}
+
+.background{
+  background-color: #80808021;
+}
+
+h2{
+  text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+}

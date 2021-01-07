@@ -1,0 +1,51 @@
+<h4>
+    {{law.typeLaw}} {{law.number}}/{{law.year}}
+</h4>
+
+<p>
+    {{law.description}}
+</p>
+
+<li>
+    <a [href]="law.link" target="_new">Veja mais</a>
+</li>
+
+<div *ngIf="owner">
+    <div class="flexrow votations" *ngIf="message">
+        {{message}}
+    </div>
+
+    <button *ngIf="addLaw" mat-button color="primary" type="button" (click)="addLaw(law)">
+        {{'Associar proposta' | translate}}
+    </button>
+
+    <div *ngIf="!addLaw">
+        <button *ngIf="!votations" mat-button color="primary" type="button" (click)="getVotations(law.originalId)">
+            {{'Buscar votações' | translate}}
+        </button>
+
+        <div class="flexrow votations" *ngIf="!votation">
+            <div *ngFor="let vot of votations" class="item" [class.yes]="vot.value" [class.no]="!vot.value">
+                <p>
+                    {{vot.location}} , {{vot.date_created | date}}: {{vot.description}}
+                </p>
+                <button *ngIf="votations" mat-button color="primary" type="button" (click)="getVotes(vot)">
+                    {{'Buscar votos' | translate}}
+                </button>
+            </div>
+        </div>
+
+
+        <div class="flexrow votes" *ngIf="votation && votes">
+            <p>
+                Votos encontrados com sucesso! <br />
+                Total: {{votes.length}}
+            </p>
+            <button *ngIf="votations" mat-button color="primary" type="button" (click)="saveVotes()">
+                {{'Salvar votos' | translate}}
+            </button>
+        </div>
+
+    </div>
+
+</div>

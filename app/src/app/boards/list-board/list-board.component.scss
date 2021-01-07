@@ -1,0 +1,22 @@
+.mat-list-base .mat-list-item,
+.mat-list-base .mat-list-option {
+    min-height: 48px !important;
+    height: auto;
+    margin: 30px 0px;
+}
+
+h4 {
+    text-align: right;
+    font-size: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    app-item-board {
+        width: 50%;
+        padding: 20px;
+    }
+}

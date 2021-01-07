@@ -1,0 +1,182 @@
+[
+    {
+        "id": "2",
+        "sigla": "SDD",
+        "nome": "PARTIDO SOLIDARIEDADE"
+    },
+    {
+        "id": "3",
+        "sigla": "PSD",
+        "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+    },
+    {
+        "id": "5",
+        "sigla": "PROS",
+        "nome": "PARTIDO REPUBLICADO DA ORDEM SOCIAL"
+    },
+    {
+        "id": "10",
+        "sigla": "REPUBLICANOS",
+        "nome": "REPUBLICANOS",
+        "sigla_old": "PRB",
+        "nome_old": "PARTIDO REPUBLICANO BRASILEIRO"
+    },
+    {
+        "id": "11",
+        "sigla": "PP",
+        "nome": "PARTIDO PROGRESSISTA"
+    },
+    {
+        "id": "12",
+        "sigla": "PDT",
+        "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+    },
+    {
+        "id": "13",
+        "sigla": "PT",
+        "nome": "PARTIDO DOS TRABALHADORES"
+    },
+    {
+        "id": "14",
+        "sigla": "PTB",
+        "nome": "PARTIDO TRABALHISTA BRASILEIRO"
+    },
+    {
+        "id": "15",
+        "sigla": "MDB",
+        "nome": "PARTIDO DO MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+    },
+    {
+        "id": "16",
+        "sigla": "PSTU",
+        "nome": "PARTIDO SOCIALISTA DOS TRABALHADORES UNIFICADO"
+    },
+    {
+        "id": "17",
+        "sigla": "PSL",
+        "nome": "PARTIDO SOCIAL LIBERAL"
+    },
+    {
+        "id": "18",
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE"
+    },
+    {
+        "id": "19",
+        "sigla": "PODE",
+        "nome": "PODEMOS",
+        "sigla_old": "PTN",
+        "nome_old": "PARTIDO TRABALHISTA NACIONAL"
+    },
+    {
+        "id": "20",
+        "sigla": "PSC",
+        "nome": "PARTIDO SOCIAL CRISTÃO"
+    },
+    {
+        "id": "21",
+        "sigla": "PCB",
+        "nome": "PARTIDO COMUNISTA BRASILEIRO"
+    },
+    {
+        "id": "22",
+        "sigla": "PL",
+        "nome": "PARTIDO LIBERAL",
+        "sigla_old": "PR",
+        "nome_old": "PARTIDO DA REPÚBLICA"
+    },
+    {
+        "id": "23",
+        "sigla_old": "PPS",
+        "sigla": "CIDADANIA",
+        "nome": "CIDADANIA",
+        "nome_old": "PARTIDO POPULAR SOCIALISTA"
+    },
+    {
+        "id": "25",
+        "sigla": "DEM",
+        "nome": "DEMOCRATAS"
+    },
+    {
+        "id": "27",
+        "sigla": "PSDC",
+        "nome": "PARTIDO SOCIAL DEMOCRATA CRISTÃO"
+    },
+    {
+        "id": "28",
+        "sigla": "PRTB",
+        "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+    },
+    {
+        "id": "29",
+        "sigla": "PCO",
+        "nome": "PARTIDO DA CAUSA OPERÁRIA"
+    },
+    {
+        "id": "30",
+        "sigla": "NOVO",
+        "nome": "PARTIDO NOVO"
+    },
+    {
+        "id": "31",
+        "sigla": "PHS",
+        "nome": "PARTIDO HUMANISTA DA SOLIDARIEDADE"
+    },
+    {
+        "id": "33",
+        "sigla": "PMN",
+        "nome": "PARTIDO DA MOBILIZAÇÃO NACIONAL"
+    },
+    {
+        "id": "36",
+        "sigla": "PTC",
+        "nome": "PARTIDO TRABALHISTA CRISTÃO"
+    },
+    {
+        "id": "40",
+        "sigla": "PSB",
+        "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+    },
+    {
+        "id": "43",
+        "sigla": "PV",
+        "nome": "PARTIDO VERDE"
+    },
+    {
+        "id": "44",
+        "sigla": "PRP",
+        "nome": "PARTIDO REPUBLICANO PROGRESSISTA"
+    },
+    {
+        "id": "45",
+        "sigla": "PSDB",
+        "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+    },
+    {
+        "id": "50",
+        "sigla": "PSOL",
+        "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+    },
+    {
+        "id": "51",
+        "sigla": "PATRIOTA",
+        "nome": "PATRIOTA",
+        "sigla_old": "PEN",
+        "nome_old": "PARTIDO ESCOLÓGICO NACIONAL"
+    },
+    {
+        "id": "65",
+        "sigla": "PCDOB",
+        "nome": "PARTIDO COMUNISTA DO BRASIL"
+    },
+    {
+        "id": "70",
+        "sigla": "AVANTE",
+        "nome": "PARTIDO TRABALHISTA DO BRASIL"
+    },
+    {
+        "id": "77",
+        "sigla": "SOLIDARIEDADE",
+        "nome": "SOLIDARIEDADE"
+    }
+]

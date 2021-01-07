@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col" *ngIf="login==true">
+        <app-login  [redirect]="false"></app-login>
+
+        <a href="#" (click)="login=false">
+            Não tem uma conta? Clique aqui para cadastrar.
+        </a>
+    </div>
+    <div class="col" *ngIf="login==false">
+        <app-register  [redirect]="false"></app-register>
+        <a href="#" (click)="login=true">
+            Já tem uma conta? Clique aqui para cadastrar.
+        </a>
+    </div>
+</div>

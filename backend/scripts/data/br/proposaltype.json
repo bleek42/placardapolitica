@@ -1,0 +1,678 @@
+[
+    {
+        "id": "CON",
+        "name": "Consulta"
+    },
+    {
+        "id": "EMC",
+        "name": "Emenda na Comissão à PEC"
+    },
+    {
+        "id": "EMP",
+        "name": "Emenda de Plenário à MPV (Ato Conjunto 1/20)"
+    },
+    {
+        "id": "EMS",
+        "name": "Emenda/Substitutivo do Senado"
+    },
+    {
+        "id": "INC",
+        "name": "Indicação"
+    },
+    {
+        "id": "MSC",
+        "name": "Mensagem de Cessão de Imóvel"
+    },
+    {
+        "id": "PDC",
+        "name": "Projeto de Decreto Legislativo para autorizar o Presidente ou o Vice-Presidente da República a se ausentarem do paíse, por mais de 15 dias (art. 49, II, CF)"
+    },
+    {
+        "id": "PEC",
+        "name": "Proposta de Emenda à Constituição"
+    },
+    {
+        "id": "PET",
+        "name": "Petição"
+    },
+    {
+        "id": "PFC",
+        "name": "Proposta de Fiscalização e Controle"
+    },
+    {
+        "id": "PL",
+        "name": "Projeto de Lei"
+    },
+    {
+        "id": "PLP",
+        "name": "Projeto de Lei Complementar"
+    },
+    {
+        "id": "PRC",
+        "name": "Projeto de Resolução de Alteração do Regimento e outros"
+    },
+    {
+        "id": "PRN",
+        "name": "Projeto de Resolução do Congresso Nacional"
+    },
+    {
+        "id": "RCP",
+        "name": "Requerimento de Instituição de CPI"
+    },
+    {
+        "id": "REC",
+        "name": "Recurso contra aplicação de censura escrita (Art. 12, § 2º do CEDP)"
+    },
+    {
+        "id": "REM",
+        "name": "Reclamação"
+    },
+    {
+        "id": "REP",
+        "name": "Representação"
+    },
+    {
+        "id": "REQ",
+        "name": "Requerimento de Urgência (art. 154, I ou III, do RICD)"
+    },
+    {
+        "id": "RIC",
+        "name": "Requerimento de Informação"
+    },
+    {
+        "id": "SIT",
+        "name": "Solicitação de Informação ao TCU"
+    },
+    {
+        "id": "TVR",
+        "name": "Transferência de Controle Societário"
+    },
+    {
+        "id": "INA",
+        "name": "Indicação de Autoridade"
+    },
+    {
+        "id": "OF",
+        "name": "Demonstrativo de emissão do real"
+    },
+    {
+        "id": "P.C",
+        "name": "Parecer (CD)"
+    },
+    {
+        "id": "PAR",
+        "name": "Parecer de Comissão"
+    },
+    {
+        "id": "MAN",
+        "name": "Manifestação pela Incompetência da Comissão"
+    },
+    {
+        "id": "PRL",
+        "name": "Parecer do Relator"
+    },
+    {
+        "id": "PRV",
+        "name": "Parecer Vencedor"
+    },
+    {
+        "id": "PPP",
+        "name": "Parecer Proferido em Plenário - Notas Taquigráficas"
+    },
+    {
+        "id": "PRR",
+        "name": "Parecer Reformulado"
+    },
+    {
+        "id": "CVO",
+        "name": "Complementação de Voto"
+    },
+    {
+        "id": "PES",
+        "name": "Parecer às Emendas Apresentadas ao Substitutivo do Relator"
+    },
+    {
+        "id": "RDF",
+        "name": "Redação Final"
+    },
+    {
+        "id": "PRF",
+        "name": "Projeto de Resolução do Senado Federal"
+    },
+    {
+        "id": "CST",
+        "name": "Solicitação de Pronunciamento"
+    },
+    {
+        "id": "SGM",
+        "name": "Ofício da Mesa"
+    },
+    {
+        "id": "DIS",
+        "name": "Discurso"
+    },
+    {
+        "id": "SBT",
+        "name": "Substitutivo"
+    },
+    {
+        "id": "SBE",
+        "name": "Subemenda"
+    },
+    {
+        "id": "EMR",
+        "name": "Emenda de Relator"
+    },
+    {
+        "id": "ESB",
+        "name": "Emenda ao Substitutivo"
+    },
+    {
+        "id": "VTS",
+        "name": "Voto em Separado"
+    },
+    {
+        "id": "DTQ",
+        "name": "Destaque de Bancada"
+    },
+    {
+        "id": "REL",
+        "name": "Relatório do Congresso Nacional"
+    },
+    {
+        "id": "DVT",
+        "name": "Declaração de Voto"
+    },
+    {
+        "id": "EML",
+        "name": "Emenda à LDO"
+    },
+    {
+        "id": "SDL",
+        "name": "Sugestão de Emenda à LDO - CLP"
+    },
+    {
+        "id": "SUG",
+        "name": "Sugestão"
+    },
+    {
+        "id": "SUM",
+        "name": "Súmula"
+    },
+    {
+        "id": "EMO",
+        "name": "Emenda ao Orçamento"
+    },
+    {
+        "id": "SOA",
+        "name": "Sugestão de Emenda ao Orçamento - CLP"
+    },
+    {
+        "id": "EMD",
+        "name": "Emenda"
+    },
+    {
+        "id": "MPV",
+        "name": "Medida Provisória de Crédito Extraordinário"
+    },
+    {
+        "id": "DEN",
+        "name": "Denúncia"
+    },
+    {
+        "id": "",
+        "name": "L) DOCUMENTOS DE CPI"
+    },
+    {
+        "id": "RPD",
+        "name": "Requerimento de Adiamento da Discussão de Matéria Urgente"
+    },
+    {
+        "id": "PLV",
+        "name": "Projeto de Lei de Conversão"
+    },
+    {
+        "id": "AV",
+        "name": "Aviso"
+    },
+    {
+        "id": "DCR",
+        "name": "Denúncia por Crime de Responsabilidade"
+    },
+    {
+        "id": "PEP",
+        "name": "Parecer às Emendas de Plenário"
+    },
+    {
+        "id": "PSS",
+        "name": "Parecer às Emendas ou ao Substitutivo do Senado - Notas Taquigráficas"
+    },
+    {
+        "id": "NIC",
+        "name": "Norma Interna"
+    },
+    {
+        "id": "ERD",
+        "name": "Emenda de Redação em Plenário"
+    },
+    {
+        "id": "PPR",
+        "name": "Parecer Reformulado de Plenário"
+    },
+    {
+        "id": "TER",
+        "name": "Termo de Implementação"
+    },
+    {
+        "id": "RLP",
+        "name": "Relatório Prévio"
+    },
+    {
+        "id": "RLF",
+        "name": "Relatório Final"
+    },
+    {
+        "id": "PRT",
+        "name": "Parecer Técnico"
+    },
+    {
+        "id": "PRO",
+        "name": "Proposta"
+    },
+    {
+        "id": "OBJ",
+        "name": "Objeto de Deliberação"
+    },
+    {
+        "id": "PLS",
+        "name": "Projeto de Lei do Senado Federal"
+    },
+    {
+        "id": "PLC",
+        "name": "Projeto de Lei da Câmara dos Deputados (SF)"
+    },
+    {
+        "id": "PDS",
+        "name": "Projeto de Decreto Legislativo (SF)"
+    },
+    {
+        "id": "RDV",
+        "name": "Redação do Vencido"
+    },
+    {
+        "id": "RST",
+        "name": "Redação para o segundo turno"
+    },
+    {
+        "id": "RLP(R)",
+        "name": "Relatório Prévio Reformulado"
+    },
+    {
+        "id": "EPP",
+        "name": "Emenda ao Plano Plurianual"
+    },
+    {
+        "id": "EAG",
+        "name": "Emenda Substitutiva Aglutinativa Global"
+    },
+    {
+        "id": "PEA",
+        "name": "Parecer à Emenda Aglutinativa"
+    },
+    {
+        "id": "SPA",
+        "name": "Sugestão de Emenda ao PPA - CLP"
+    },
+    {
+        "id": "IAN",
+        "name": "Indicação da ANC (1987-88)"
+    },
+    {
+        "id": "PCA",
+        "name": "Parecer da ANC (1987-88)"
+    },
+    {
+        "id": "PDA",
+        "name": "Projeto de Decisão da ANC (1987-88)"
+    },
+    {
+        "id": "PRA",
+        "name": "Projeto de Resolução da ANC (1987-88)"
+    },
+    {
+        "id": "RCM",
+        "name": "Requerimento de Comissão Mista"
+    },
+    {
+        "id": "RQA",
+        "name": "Requerimento de Informações da ANC (1987-88)"
+    },
+    {
+        "id": "RQC",
+        "name": "Requerimento de Convocação"
+    },
+    {
+        "id": "AA",
+        "name": "Autógrafo"
+    },
+    {
+        "id": "ESP",
+        "name": "Emenda Substitutiva de Plenário"
+    },
+    {
+        "id": "SSP",
+        "name": "Subemenda Substitutiva de Plenário"
+    },
+    {
+        "id": "MMP",
+        "name": "Mensagem (MPU)"
+    },
+    {
+        "id": "RIN",
+        "name": "Requerimento de Resolução Interna"
+    },
+    {
+        "id": "MST",
+        "name": "Mensagem (STF)"
+    },
+    {
+        "id": "APJ",
+        "name": "Anteprojeto"
+    },
+    {
+        "id": "RQN",
+        "name": "Requerimento do Congresso Nacional"
+    },
+    {
+        "id": "R.C",
+        "name": "Recurso do Congresso Nacional"
+    },
+    {
+        "id": "PDL",
+        "name": "Projeto de Decreto Legislativo de Perempção"
+    },
+    {
+        "id": "CCN",
+        "name": "Consulta do Congresso Nacional"
+    },
+    {
+        "id": "ADD",
+        "name": "Adendo"
+    },
+    {
+        "id": "DEC",
+        "name": "Decisão"
+    },
+    {
+        "id": "ATC",
+        "name": "Ato Convocatório"
+    },
+    {
+        "id": "PRST",
+        "name": "Parecer à Redação para o Segundo Turno"
+    },
+    {
+        "id": "RLP(V)",
+        "name": "Relatório Prévio Vencedor"
+    },
+    {
+        "id": "EMA",
+        "name": "Emenda Aglutinativa de Plenário"
+    },
+    {
+        "id": "DOC",
+        "name": "Indicação de Coordenador de Bancada Estadual"
+    },
+    {
+        "id": "SOR",
+        "name": "Sugestão de Emenda ao Orçamento - Comissões"
+    },
+    {
+        "id": "SLD",
+        "name": "Sugestão de Emenda à LDO - Comissões"
+    },
+    {
+        "id": "SPP",
+        "name": "Sugestão de Emenda ao PPA - Comissões"
+    },
+    {
+        "id": "RPA",
+        "name": "Relatório Parcial"
+    },
+    {
+        "id": "MTC",
+        "name": "Mensagem (TCU)"
+    },
+    {
+        "id": "SPP-R",
+        "name": "Sugestão de Emenda ao PPA - revisão (Comissões)"
+    },
+    {
+        "id": "SPA-R",
+        "name": "Sugestão de Emenda ao PPA - revisão (CLP)"
+    },
+    {
+        "id": "RFP",
+        "name": "Refomulação de Parecer - art. 130, parágrafo único do RICD."
+    },
+    {
+        "id": "PRVP",
+        "name": "Proposta de Redação do Vencido em Primeiro Turno"
+    },
+    {
+        "id": "SUC",
+        "name": "Sugestão a Projeto de Consolidação de Leis"
+    },
+    {
+        "id": "PLN",
+        "name": "Projeto de Lei (CN) de Alteração do PPA"
+    },
+    {
+        "id": "PDN",
+        "name": "Projeto de Decreto Legislativo (CN)"
+    },
+    {
+        "id": "AVN",
+        "name": "Aviso (CN) de Contas do TCU"
+    },
+    {
+        "id": "MCN",
+        "name": "Mensagem (CN) de Relatório de Avaliação de Receitas e Despesas, MCN"
+    },
+    {
+        "id": "OFN",
+        "name": "Ofício (CN) de Relatório Anual da Agência Nacional de Transportes Aquaviários - Antaq"
+    },
+    {
+        "id": "MSF",
+        "name": "Mensagem (SF)"
+    },
+    {
+        "id": "PRP",
+        "name": "Parecer do Relator Parcial"
+    },
+    {
+        "id": "EMRP",
+        "name": "Emenda de Relator Parcial"
+    },
+    {
+        "id": "CAC",
+        "name": "Comunicado de Alteração do Controle Societário"
+    },
+    {
+        "id": "RRL",
+        "name": "Relatório do Relator"
+    },
+    {
+        "id": "CVR",
+        "name": "Contestação ao Voto do Relator"
+    },
+    {
+        "id": "PARF",
+        "name": "Parecer de Comissão para Redação Final"
+    },
+    {
+        "id": "SRL",
+        "name": "Sugestão de Emenda a Relatório"
+    },
+    {
+        "id": "RPL",
+        "name": "Relatório Preliminar"
+    },
+    {
+        "id": "RRC",
+        "name": "Relatório de Receita"
+    },
+    {
+        "id": "RPLE",
+        "name": "Relatório Preliminar Apresentado com Emendas"
+    },
+    {
+        "id": "ERR",
+        "name": "Errata"
+    },
+    {
+        "id": "CAE",
+        "name": "Relatório do CAE"
+    },
+    {
+        "id": "COI",
+        "name": "Relatório do COI"
+    },
+    {
+        "id": "RAT",
+        "name": "Relatório Setorial"
+    },
+    {
+        "id": "OFS",
+        "name": "Ofício do Senado Federal de Fundo Constitucional de Financiamento "
+    },
+    {
+        "id": "MSG",
+        "name": "Mensagem (SF) de Contas do Governo da República"
+    },
+    {
+        "id": "SBT-A",
+        "name": "Substitutivo adotado pela Comissão"
+    },
+    {
+        "id": "EMC-A",
+        "name": "Emenda Adotada pela Comissão"
+    },
+    {
+        "id": "SBE-A",
+        "name": "Subemenda Adotada pela Comissão"
+    },
+    {
+        "id": "RPLOA",
+        "name": "Relatório Preliminar"
+    },
+    {
+        "id": "ANEXO",
+        "name": "Anexo"
+    },
+    {
+        "id": "EMPV",
+        "name": "Emenda à Medida Provisória (CN)"
+    },
+    {
+        "id": "SBR",
+        "name": "Subemenda de Relator"
+    },
+    {
+        "id": "ERD-A",
+        "name": "Emenda de Redação Adotada"
+    },
+    {
+        "id": "PIN",
+        "name": "Proposta de Instrução Normativa"
+    },
+    {
+        "id": "ATA",
+        "name": "Ata"
+    },
+    {
+        "id": "CRVITAEDOC",
+        "name": "Curriculum Vitae/Outro Documento"
+    },
+    {
+        "id": "PR/CNMP",
+        "name": "Parecer do Conselho Nacional do Ministério Público"
+    },
+    {
+        "id": "PR/CNJ",
+        "name": "Parecer do Conselho Nacional de Justiça"
+    },
+    {
+        "id": "DOCCPI",
+        "name": "Documento de CPI sigiloso"
+    },
+    {
+        "id": "OFJ",
+        "name": "Ofício de Órgão do Poder Judiciário"
+    },
+    {
+        "id": "OFE",
+        "name": "Ofício de Órgão do Poder Executivo"
+    },
+    {
+        "id": "MAD",
+        "name": "Manifestação do(a) Denunciado(a)"
+    },
+    {
+        "id": "SIP",
+        "name": "Solicitação para instauração de processo"
+    },
+    {
+        "id": "RCEX",
+        "name": "Relatório de Comissão Externa"
+    },
+    {
+        "id": "RCEL",
+        "name": "Relatório de Comissão de Estudo Legislativo"
+    },
+    {
+        "id": "DEF",
+        "name": "Defesa Prévia"
+    },
+    {
+        "id": "PRLP",
+        "name": "Parecer Preliminar de Plenário"
+    },
+    {
+        "id": "PRLP(V)",
+        "name": "Parecer Preliminar Vencedor"
+    },
+    {
+        "id": "RGT",
+        "name": "Relatório de Grupo de Trabalho"
+    },
+    {
+        "id": "REL-A",
+        "name": "Relatório Adotado pela Comissão"
+    },
+    {
+        "id": "RRR",
+        "name": "Relatório Reformulado"
+    },
+    {
+        "id": "RVC",
+        "name": "Relatório Vencedor"
+    },
+    {
+        "id": "CMC",
+        "name": "Comunicação de Medida Cautelar"
+    },
+    {
+        "id": "MIP",
+        "name": "Minuta de Proposição Legislativa"
+    },
+    {
+        "id": "ECN",
+        "name": "Emenda (CN)"
+    },
+    {
+        "id": "DTS",
+        "name": "Destaque Simples"
+    }
+]

@@ -1,0 +1,21 @@
+<p>{{'Register below by entering your name, email, and choosing a password.' | translate}}</p>
+
+<form [formGroup]="registerForm" (ngSubmit)="submit()" class="form">
+  <p *ngIf="error">{{error}}</p>
+  <mat-form-field>
+    <mat-label>{{'full-name' | translate}}</mat-label>
+    <input matInput type="text" formControlName="full_name" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>{{'email' | translate}}</mat-label>
+    <input matInput type="email" placeholder="Ex. myemail@test.com" formControlName="user_name" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>{{'Password' | translate}}</mat-label>
+    <input matInput type="password" formControlName="password" required>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary">{{'Register' | translate }}</button>
+</form>

@@ -1,0 +1,30 @@
+
+<app-header></app-header>
+
+<main class="container">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="flexcol">
+
+  <div class="flexrow">
+    <a [routerLink]="['/']"> 
+      <img src="/assets/logow.png" alt="{{'Placar da Política' | translate}}"/>
+    </a>
+    <nav>
+      <ul>
+        <li><a [routerLink]="['/boards']"> {{'Boards' | translate}} </a></li>
+
+        <li *ngIf="appStore.user"><a [routerLink]="['/boards/create']" > {{'New Board' | translate}}</a></li>
+        <li *ngIf="appStore.user"><a (click)="logout()" > {{'Logout' |translate}} </a></li>
+
+        <li *ngIf="!appStore.user"><a [routerLink]="['/login']" > {{'Login' | translate}} </a></li>
+        <li *ngIf="!appStore.user"><a [routerLink]="['/register']" > {{'Register' | translate}} </a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <hr />
+
+  <small>{{'Brasil - 2020' | translate}}</small>
+</footer>

@@ -1,0 +1,13 @@
+<section>
+
+    <app-board-header *ngIf="board" [board]="board"></app-board-header>
+
+    <h2>{{'Veja os dados por cidade' | translate}}</h2>
+
+    <div id="container"></div>
+
+    <app-votes *ngIf="board" [votes]="votes" [boardId]="boardId" [board]="board" [update]="getBoardData.bind(this)"></app-votes>
+
+    
+
+</section>

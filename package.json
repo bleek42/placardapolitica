@@ -1,0 +1,36 @@
+{
+  "name": "vp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "start-app": "cd app && npm start",
+    "start-script": "node backend/scripts/us/senate.js ",
+    "partidos": "node backend/scripts/partidos.js",
+    "prod": "git pull && cd app/ && npm run prod && cd dist/app && cp -R * ../../../../public_html/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariohmol/vp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariohmol/vp/issues"
+  },
+  "homepage": "https://github.com/mariohmol/vp#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "helmet": "^3.23.3",
+    "js-brasil": "^2.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "ng-brazil": "^2.0.10",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "xss": "^1.0.8"
+  }
+}

@@ -1,0 +1,47 @@
+<section *ngIf="cityForm">
+
+    <div *ngIf="!formOpen">
+        <h3>Sua informação foi enviada com sucesso, obrigado pela colaboração</h3>
+    </div>
+
+    <form [formGroup]="cityForm" (ngSubmit)="submit()" class="form" *ngIf="formOpen && board" ngNativeValidate>
+        <div *ngIf="board.valueType=='boolean'">
+            <mat-radio-group aria-label="Choose the answer" required formControlName="value">
+                <mat-radio-button value="true">Yes</mat-radio-button>
+                <mat-radio-button value="false">No</mat-radio-button>
+                <mat-radio-button value="undefined">Don't know</mat-radio-button>
+            </mat-radio-group>
+        </div>
+
+        <mat-form-field *ngIf="board.valueType=='currency'">
+            <mat-label>{{'Amount' | translate }}</mat-label>
+            <span matPrefix>$ &nbsp;</span>
+            <input matInput placeholder="Ex. 1.00" formControlName="value" type="number">
+        </mat-form-field>
+
+        <mat-form-field *ngIf="board.valueType=='number'">
+            <mat-label>{{'Number' | translate}}</mat-label>
+            <input matInput placeholder="Ex. 1500" formControlName="value" type="number">
+        </mat-form-field>
+
+        <mat-form-field *ngIf="board.valueType=='date'">
+            <mat-label>{{'Date' | translate}}</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="value">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>{{'Link' | translate}}</mat-label>
+            <input type="url" matInput placeholder="Link que comprova a informação" formControlName="link" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>{{'Descrição' | translate}}</mat-label>
+            <textarea matInput placeholder="Comentários geral sobre a informações, sobre a fonte ou valor"
+                formControlName="description"></textarea>
+        </mat-form-field>
+
+        <button mat-button color="primary">{{'Salvar' | translate}}</button>
+    </form>
+</section>

@@ -1,0 +1,8 @@
+<p>recover works!</p>
+
+<form [formGroup]="recoverForm" (ngSubmit)="submit()" class="form">
+
+    <mat-form-field>
+      <mat-label>{{'email' | translate}}</mat-label>
+      <input matInput type="email" placeholder="Ex. myemail@test.com" formControlName="user_name" required>
+    </mat-form-field>

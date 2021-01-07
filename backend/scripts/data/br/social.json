@@ -1,0 +1,641 @@
+[
+    {
+        "Nome": "Humberto Costa",
+        "partido": "(PT-PE)",
+        "FB": "https://www.facebook.com/humbertocostapt",
+        "TW": "https://twitter.com/humbertocostapt",
+        "Email": "humberto.costa@senador.leg.br",
+        "Tel": "(61) 3303-6285 / 6286"
+    },
+    {
+        "Nome": "Acir Gurgacz",
+        "partido": "(PDT-RO)",
+        "FB": "https://www.facebook.com/AcirGurgacz?ref=ts",
+        "TW": "https://twitter.com/acirgurgacz",
+        "Email": "acir@senador.leg.br",
+        "Tel": "(61) 3303-3132 / 3131"
+    },
+    {
+        "Nome": "Cássio Cunha Lima",
+        "partido": "(PSDB-PB)",
+        "FB": "https://www.facebook.com/cassiocunhalima",
+        "TW": "https://twitter.com/@cassiocl",
+        "Email": "cassio.cunha.lima@senador.leg.br",
+        "Tel": "(61) 3303-9808 / 9809 / 9810"
+    },
+    {
+        "Nome": "Ronaldo Caiado",
+        "partido": "(DEM-GO)",
+        "FB": "https://www.facebook.com/ronaldocaiado25",
+        "TW": "https://twitter.com/SenadorCaiado",
+        "Email": "ronaldo.caiado@senador.leg.br",
+        "Tel": "(61) 3303-6439 / 6440 / 6445"
+    },
+    {
+        "Nome": "João Capiberibe",
+        "partido": "(PSB-AP)",
+        "FB": "https://pt-br.facebook.com/CapiSenador/",
+        "TW": "https://twitter.com/joaocapi",
+        "Email": "joao.capiberibe@senador.leg.br",
+        "Tel": "(61) 3303-9011 / 9013"
+    },
+    {
+        "Nome": "José Medeiros",
+        "partido": "(PPS-MT)",
+        "FB": "https://www.facebook.com/senadorjosemedeiros/",
+        "TW": "https://twitter.com/JoseMedeirosMT",
+        "Email": "josemedeiros@senador.leg.br",
+        "Tel": "(61) 3303-1146 / 1148"
+    },
+    {
+        "Nome": "Vanessa Grazziotin",
+        "partido": "(PCdoB – AM)",
+        "FB": "https://pt-br.facebook.com/VanessaGrazziotin",
+        "TW": "https://twitter.com/vanessasenadora",
+        "Email": "vanessa.grazziotin@senadora.leg.br",
+        "Tel": "(61) 3303-6726 / 6733"
+    },
+    {
+        "Nome": "Randolfe Rodrigues",
+        "partido": "(REDE-AP)",
+        "FB": "https://www.facebook.com/randolferodrigues/",
+        "TW": "https://twitter.com/randolfeap",
+        "Email": "randolfe.rodrigues@senador.leg.br",
+        "Tel": "(61) 3303-6568 / 6567 / 6574"
+    },
+    {
+        "Nome": "Benedito de Lira",
+        "partido": "(PP-AL)",
+        "FB": "https://pt-br.facebook.com/BeneditodeLira/",
+        "TW": "https://twitter.com/BiudeLira",
+        "Email": "benedito.lira@senador.leg.br",
+        "Tel": "(61) 3303-6148 / 6149 / 6151"
+    },
+    {
+        "Nome": "Omar Aziz",
+        "partido": "(PSD-AM)",
+        "FB": "https://pt-br.facebook.com/OmarAzizPSD",
+        "TW": "https://twitter.com/OmarAzizPSD",
+        "Email": "omar.aziz@senador.leg.br",
+        "Tel": "(61) 3303-6579"
+    },
+    {
+        "Nome": "Fernando Collor",
+        "partido": "(PTB-AL)",
+        "FB": "https://www.facebook.com/colloralagoas/",
+        "TW": "https://twitter.com/collor",
+        "Email": "fernando.collor@senador.leg.br",
+        "Tel": "(61) 3303-5783"
+    },
+    {
+        "Nome": "Wellington Fagundes",
+        "partido": "(PR-MT)",
+        "FB": "https://www.facebook.com/wellington.fagundes.mt",
+        "TW": "https://twitter.com/sen_wellington",
+        "Email": "wellington.fagundes@senador.leg.br",
+        "Tel": "(61) 3303-6219 / 6213"
+    },
+    {
+        "Nome": "Eduardo Amorim",
+        "partido": "(PSC-PE)",
+        "FB": "https://www.facebook.com/eduardoamorim20",
+        "TW": "https://twitter.com/eduardoamorimse",
+        "Email": "eduardo.amorim@senador.leg.br",
+        "Tel": "(61) 3303-6205 / 6206 / 6207 / 6208 / 6209 / 6210 / 6211"
+    },
+    {
+        "Nome": "Marcelo Crivella",
+        "partido": "(PRB-RJ)",
+        "FB": "https://www.facebook.com/marcelocrivella",
+        "TW": "https://twitter.com/mcrivella",
+        "Email": "marcelo.crivella@senador.leg.br",
+        "Tel": "(61) 3303-5730 / 5225"
+    },
+    {
+        "Nome": "Eunício Oliveira",
+        "partido": "(PMDB-CE)",
+        "FB": "https://www.facebook.com/Eun%C3%ADcio-Oliveira-147474322001734/",
+        "TW": "https://twitter.com/EunicioSenador",
+        "Email": "eunicio.oliveira@senador.leg.br",
+        "Tel": "(61) 3303-6245 / 6246"
+    },
+    {
+        "Nome": "Hélio José",
+        "partido": "(PMB-DF)",
+        "FB": "https://www.facebook.com/senadorheliojose",
+        "TW": "https://twitter.com/senador_helio",
+        "Email": "heliojose@senador.leg.br",
+        "Tel": "(61) 3303-6640 / 6645 / 6646"
+    },
+    {
+        "Nome": "Ângela Portela",
+        "partido": "(PT-RR)",
+        "FB": "https://www.facebook.com/angelaportela13",
+        "TW": "https://twitter.com/angelaportelarr",
+        "Email": "angela.portela@senadora.leg.br",
+        "Tel": "(61) 3303-6103 / 6104 / 6105"
+    },
+    {
+        "Nome": "Donizeti Nogueira",
+        "partido": "(PT-TO)",
+        "FB": "https://pt-br.facebook.com/donizetidopt",
+        "TW": "https://twitter.com/donizetipt",
+        "Email": "donizeti.nogueira@senador.leg.br",
+        "Tel": "(61) 3303-2464 / 2708 / 5771 / 2466"
+    },
+    {
+        "Nome": "Fátima Bezerra",
+        "partido": "(PT-RN)",
+        "FB": "https://pt-br.facebook.com/FatimaBezerra13",
+        "TW": "https://twitter.com/fatima_bezerra",
+        "Email": "fatima.bezerra@senadora.leg.br",
+        "Tel": "(61) 3303-1777 / 1682 / 1602"
+    },
+    {
+        "Nome": "Gleisi Hoffmann",
+        "partido": "(PT-PR)",
+        "FB": "https://pt-br.facebook.com/gleisi.hoffmann/",
+        "TW": "https://twitter.com/gleisi",
+        "Email": "gleisi@senadora.leg.br",
+        "Tel": "(61) 3303-6265"
+    },
+    {
+        "Nome": "Jorge Viana",
+        "partido": "(PT-AC)",
+        "FB": "https://pt-br.facebook.com/senadorjorgeviana",
+        "TW": "https://twitter.com/jorgevianaacre",
+        "Email": "jorge.viana@senador.leg.br",
+        "Tel": "(61) 3303-6366 / 6369"
+    },
+    {
+        "Nome": "José Pimentel",
+        "partido": "(PT-CE)",
+        "FB": "https://www.facebook.com/JosePimentelPT/",
+        "TW": "https://twitter.com/jose_pimentel",
+        "Email": "jose.pimentel@senador.leg.br",
+        "Tel": "(61) 3303-6390 / 6391"
+    },
+    {
+        "Nome": "Lindbergh Farias",
+        "partido": "(PT-RJ)",
+        "FB": "https://pt-br.facebook.com/lindbergh.farias/",
+        "TW": "https://twitter.com/LindbergFarias",
+        "Email": "lindbergh.farias@senador.leg.br",
+        "Tel": "(61) 3303-6426 / 6427"
+    },
+    {
+        "Nome": "Paulo Paim",
+        "partido": "(PT-RS)",
+        "FB": "https://pt-br.facebook.com/paulopaim/",
+        "TW": "https://twitter.com/paulopaim",
+        "Email": "paulopaim@senador.leg.br",
+        "Tel": "(61) 3303-5232 / 5231 / 5230"
+    },
+    {
+        "Nome": "Paulo Rocha",
+        "partido": "(PT-PA)",
+        "FB": "https://pt-br.facebook.com/Paulo-Rocha-1425830751012706/",
+        "TW": "https://twitter.com/Sen_PauloRocha",
+        "Email": "paulo.rocha@senador.leg.br",
+        "Tel": "(61) 3303-3800"
+    },
+    {
+        "Nome": "Regina Sousa",
+        "partido": "(PT-PI)",
+        "FB": "https://www.facebook.com/Regina-Sousa-1552091645060509/",
+        "TW": "https://twitter.com/SenadoraRegina",
+        "Email": "reginasousa@senadora.leg.br",
+        "Tel": "(61) 3303-9049"
+    },
+    {
+        "Nome": "Walter Pinheiro",
+        "partido": "(PT-BA)",
+        "FB": "https://pt-br.facebook.com/pinheiro.senador",
+        "TW": "https://twitter.com/pinheirosenador",
+        "Email": "pinheiro@senador.leg.br",
+        "Tel": "(61) 3303-6788 / 6790"
+    },
+    {
+        "Nome": "Cristovam Buarque",
+        "partido": "(PDT-DF)",
+        "FB": "https://www.facebook.com/Cristovam.Buarque",
+        "TW": "https://twitter.com/sen_cristovam",
+        "Email": "cristovam.buarque@senador.leg.br",
+        "Tel": "(61) 3303-2281"
+    },
+    {
+        "Nome": "Lasier Martins",
+        "partido": "(PDT-RS)",
+        "FB": "https://www.facebook.com/LasierMartinsOficial/",
+        "TW": "https://twitter.com/lasierm",
+        "Email": "lasier.martins@senador.leg.br",
+        "Tel": "(61) 3303-2323"
+    },
+    {
+        "Nome": "Reguffe",
+        "partido": "(PDT-DF)",
+        "FB": "https://pt-br.facebook.com/reguffeoficial",
+        "TW": "https://twitter.com/reguffe",
+        "Email": "reguffe@senador.leg.br",
+        "Tel": "(61) 3303-6355"
+    },
+    {
+        "Nome": "Telmário Mota",
+        "partido": "(PDT-RR)",
+        "FB": "https://www.facebook.com/telmariomotarr",
+        "TW": "https://twitter.com/telmariomotarr",
+        "Email": "telmariomota@senador.leg.br",
+        "Tel": "(61) 3303-6315"
+    },
+    {
+        "Nome": "Zeze Perrella",
+        "partido": "(PDT-MG)",
+        "FB": "https://pt-br.facebook.com/zezeperrella",
+        "TW": "https://twitter.com/senzezeperrella",
+        "Email": "zeze.perrella@senador.leg.br",
+        "Tel": "(61) 3303-2191 / 2192"
+    },
+    {
+        "Nome": "Aécio Neves",
+        "partido": "(PSDB-MG)",
+        "FB": "https://pt-br.facebook.com/AecioNevesOficial",
+        "TW": "https://twitter.com/aecioneves",
+        "Email": "aecio.neves@senador.leg.br",
+        "Tel": "(61) 3303-6049 / 6050"
+    },
+    {
+        "Nome": "Aloysio Nunes Ferreira",
+        "partido": "(PSDB-SP)",
+        "FB": "https://pt-br.facebook.com/aloysionunes",
+        "TW": "https://twitter.com/aloysio_nunes",
+        "Email": "aloysionunes.ferreira@senador.leg.br",
+        "Tel": "(61) 3303-6063 / 6064"
+    },
+    {
+        "Nome": "Alvaro Dias",
+        "partido": "(PSDB-PR)",
+        "FB": "https://www.facebook.com/ad.alvarodias",
+        "TW": "https://twitter.com/alvarodias_",
+        "Email": "alvarodias@senador.leg.br",
+        "Tel": "(61) 3303-4059 / 4060"
+    },
+    {
+        "Nome": "Antonio Anastasia",
+        "partido": "(PSDB-MG)",
+        "FB": "https://pt-br.facebook.com/AntonioAnastasiaOficial",
+        "TW": "https://twitter.com/Prof_Anastasia",
+        "Email": "antonio.anastasia@senador.leg.br",
+        "Tel": "(61) 3303-5717"
+    },
+    {
+        "Nome": "Ataídes Oliveira",
+        "partido": "(PSDB-TO)",
+        "FB": "https://www.facebook.com/SenadorAtaidesOliveira",
+        "TW": "https://twitter.com/senador_ataides",
+        "Email": "ataides.oliveira@senador.leg.br",
+        "Tel": "(61) 3303-2163 / 2164 / 2165"
+    },
+    {
+        "Nome": "Dalirio Beber",
+        "partido": "(PSDB-SC)",
+        "FB": "https://www.facebook.com/Senador-Dalirio-Beber-1679491075655810/",
+        "TW": "https://twitter.com/daliriobeber",
+        "Email": "dalirio.beber@senador.leg.br",
+        "Tel": "(61) 3303-6446 / 6447"
+    },
+    {
+        "Nome": "Flexa Ribeiro",
+        "partido": "(PSDB-PA)",
+        "FB": "https://www.facebook.com/senadorflexaribeiro",
+        "TW": "https://twitter.com/senadorflexa",
+        "Email": "flexa.ribeiro@senador.leg.br",
+        "Tel": "(61) 3303-2342"
+    },
+    {
+        "Nome": "José Serra",
+        "partido": "(PSDB-SP)",
+        "FB": "https://www.facebook.com/JoseSerraOficial",
+        "TW": "https://twitter.com/joseserra_",
+        "Email": "jose.serra@senador.leg.br",
+        "Tel": "(61) 3303-6651 / 6655"
+    },
+    {
+        "Nome": "Paulo Bauer",
+        "partido": "(PSDB-SC)",
+        "FB": "https://www.facebook.com/paulobauer/",
+        "TW": "https://twitter.com/paulobauer45/",
+        "Email": "paulo.bauer@senador.leg.br",
+        "Tel": "(61) 3303-6529 / 6530"
+    },
+    {
+        "Nome": "Tasso Jereissati",
+        "partido": "(PSDB-CE)",
+        "FB": "https://www.facebook.com/tassocomvoce/",
+        "TW": "https://twitter.com/tassocomvoce/",
+        "Email": "tasso.jereissati@senador.leg.br",
+        "Tel": "(61) 3303-4502 / 4503"
+    },
+    {
+        "Nome": "Alcolumbre",
+        "partido": "(DEM-AP)",
+        "FB": "https://pt-br.facebook.com/davi.alcolumbre",
+        "TW": "https://twitter.com/davialcolumbre",
+        "Email": "davi.alcolumbre@senador.leg.br",
+        "Tel": "(61) 3303-6717 / 6720 / 6722"
+    },
+    {
+        "Nome": "José Agripino",
+        "partido": "(DEM-RN)",
+        "FB": "https://pt-br.facebook.com/joseagripinomaia",
+        "TW": "https://twitter.com/joseagripino",
+        "Email": "jose.agripino@senador.leg.br",
+        "Tel": "(61) 3303-2366 / 2361 / 2362"
+    },
+    {
+        "Nome": "Ricardo Franco",
+        "partido": "(DEM-SE)",
+        "FB": "https://www.facebook.com/Senador-Ricardo-Franco1630724127180145/timeline?ref=page_internal",
+        "TW": "Não encontrado.",
+        "Email": "Não informado no site do Senado.",
+        "Tel": "(61) 3303-1306 / 4055"
+    },
+    {
+        "Nome": "Antonio Carlos Valadares",
+        "partido": "(PSB-SE)",
+        "FB": "https://pt-br.facebook.com/ValadaresPSB/",
+        "TW": "https://twitter.com/valadarespsb",
+        "Email": "antoniocarlosvaladares@senador.leg.br",
+        "Tel": "(61) 3303-2201 / 2203 / 2204"
+    },
+    {
+        "Nome": "Fernando Bezerra Coelho",
+        "partido": "(PSB-PE)",
+        "FB": "https://www.facebook.com/fernando.bezerracoelho?fref=ts",
+        "TW": "https://twitter.com/fbezerracoelho",
+        "Email": "fernandobezerracoelho@senador.leg.br",
+        "Tel": "(61) 3303-2182"
+    },
+    {
+        "Nome": "Lídice da Mata",
+        "partido": "(PSB-BA)",
+        "FB": "https://www.facebook.com/LidicedaMata",
+        "TW": "https://twitter.com/lidicedamata",
+        "Email": "lidice.mata@senadora.leg.br",
+        "Tel": "(61) 3303-6408 / 6410"
+    },
+    {
+        "Nome": "Lúcia Vânia",
+        "partido": "(PSB-GO)",
+        "FB": "https://www.facebook.com/Senadora-L%C3%BAcia-V%C3%A2nia127980693947760/",
+        "TW": "https://twitter.com/lucia_vania",
+        "Email": "lucia.vania@senadora.leg.br",
+        "Tel": "(61) 3303-2844 / 2035"
+    },
+    {
+        "Nome": "Roberto Rocha",
+        "partido": "(PSB-MA)",
+        "FB": "https://pt-br.facebook.com/robertorocha400",
+        "TW": "https://twitter.com/robertorocha400",
+        "Email": "robertorocha@senador.leg.br",
+        "Tel": "(61) 3303-1437 / 1506"
+    },
+    {
+        "Nome": "Romário",
+        "partido": "(PSB-RJ)",
+        "FB": "https://pt-br.facebook.com/romariodesouzafaria",
+        "TW": "https://twitter.com/romarioonze",
+        "Email": "romario@senador.leg.br",
+        "Tel": "(61) 3303-6519 / 6517"
+    },
+    {
+        "Nome": "Ana Amélia",
+        "partido": "(PP-RS)",
+        "FB": "https://www.facebook.com/anaamelialm",
+        "TW": "https://twitter.com/anaamelialemos",
+        "Email": "ana.amelia@senadora.leg.br",
+        "Tel": "(61) 3303-6083"
+    },
+    {
+        "Nome": "Ciro Nogueira",
+        "partido": "(PP-PI)",
+        "FB": "https://www.facebook.com/cironogueira",
+        "TW": "https://twitter.com/ciro_nogueira",
+        "Email": "ciro.nogueira@senador.leg.br",
+        "Tel": "(61) 3303-6187 / 6189"
+    },
+    {
+        "Nome": "Gladson Cameli",
+        "partido": "(PP-AC)",
+        "FB": "https://www.facebook.com/GladsonCameli/",
+        "TW": "https://twitter.com/senadorcameli?lang=pt",
+        "Email": "gladson.cameli@senador.leg.br",
+        "Tel": "(61) 3303-1357 / 1367"
+    },
+    {
+        "Nome": "Ivo Cassol",
+        "partido": "(PP-RO)",
+        "FB": "https://www.facebook.com/IVO-CASSOL-1481362108788369/",
+        "TW": "Não encontrado.",
+        "Email": "ivo.cassol@senador.leg.br",
+        "Tel": "(61) 3303-6328 / 6329"
+    },
+    {
+        "Nome": "Wilder Morais",
+        "partido": "(PP-GO)",
+        "FB": "https://pt-br.facebook.com/wildermorais",
+        "TW": "https://twitter.com/wildermorais",
+        "Email": "wilder.morais@senador.leg.br",
+        "Tel": "(61) 3303-2092 / 2093 / 1809 / 2099"
+    },
+    {
+        "Nome": "Otto Alencar",
+        "partido": "(PSD-BA)",
+        "FB": "https://pt-br.facebook.com/ottoalencaroficial",
+        "TW": "https://twitter.com/alencarotto",
+        "Email": "otto.alencar@senador.leg.br",
+        "Tel": "(61) 3303-1464 / 1467"
+    },
+    {
+        "Nome": "Sérgio Petecão",
+        "partido": "(PSD-AC)",
+        "FB": "https://pt-br.facebook.com/sergiopetecao",
+        "TW": "https://twitter.com/senadorpetecao",
+        "Email": "sergio.petecao@senador.leg.br",
+        "Tel": "(61) 3303-6708 / 6709"
+    },
+    {
+        "Nome": "Douglas Cintra",
+        "partido": "(PTB-PE)",
+        "FB": "https://www.facebook.com/Douglas-Cintra-1504925279752130/",
+        "TW": "https://twitter.com/douglascintra14",
+        "Email": "douglas.cintra@senador.leg.br",
+        "Tel": "(61) 3303-6130 / 6127"
+    },
+    {
+        "Nome": "Elmano Férrer",
+        "partido": "(PTB-PI)",
+        "FB": "https://pt-br.facebook.com/elmanoferreroficial/",
+        "TW": "https://twitter.com/elmanoferrer",
+        "Email": "elmano.ferrer@senador.leg.br",
+        "Tel": "(61) 3303-2415 / 3055 / 1015"
+    },
+    {
+        "Nome": "Blairo Maggi",
+        "partido": "(PR-MT)",
+        "FB": "https://www.facebook.com/BlairoMaggi.br/",
+        "TW": "https://twitter.com/blairomaggi",
+        "Email": "blairomaggi@senador.leg.br",
+        "Tel": "(61) 3303-6167 / 6161 / 6168"
+    },
+    {
+        "Nome": "Magno Malta(PR-ES)",
+        "FB": "https://pt-br.facebook.com/magnomalta",
+        "TW": "https://twitter.com/magnomaltaofc",
+        "Email": "magno.malta@senador.leg.br",
+        "Tel": "(61) 3303-4161 / 5867"
+    },
+    {
+        "Nome": "Vicentinho Alves",
+        "partido": "(PR-TO)",
+        "FB": "https://pt-br.facebook.com/vicentinhoalves",
+        "TW": "https://twitter.com/SenVicentinho",
+        "Email": "vicentinho.alves@senador.leg.br",
+        "Tel": "(61) 3303-6469 / 6467"
+    },
+    {
+        "Nome": "Dário Berger",
+        "partido": "(PMDB-SC)",
+        "FB": "https://pt-br.facebook.com/DarioEliasBerger/",
+        "TW": "https://twitter.com/darioberger",
+        "Email": "dario.berger@senador.leg.br",
+        "Tel": "(61) 3303-5947 / 5951"
+    },
+    {
+        "Nome": "Edison Lobão",
+        "partido": "(PMDB-MA)",
+        "FB": "https://www.facebook.com/senadoredisonlobao/?fref=nf",
+        "TW": "https://twitter.com/senadorlobao",
+        "Email": "edison.lobao@senador.leg.br",
+        "Tel": "(61) 3303-2311 / 2312 / 1989"
+    },
+    {
+        "Nome": "Garibaldi Alves Filho",
+        "partido": "(PMDB-RN)",
+        "FB": "https://www.facebook.com/SenadorGaribaldiAlves?fref=nf",
+        "TW": "https://twitter.com/garibaldifilho",
+        "Email": "garibaldi.alves@senador.leg.br",
+        "Tel": "(61) 3303-2371 / 2372"
+    },
+    {
+        "Nome": "Jader Barbalho",
+        "partido": "(PMDB-PA)",
+        "FB": "https://pt-br.facebook.com/JaderpeloPara",
+        "TW": "https://twitter.com/jader_barbalho",
+        "Email": "jader.barbalho@senador.leg.br",
+        "Tel": "(61) 3303-9826 / 9831 / 9827 / 9832"
+    },
+    {
+        "Nome": "João Alberto Souza",
+        "partido": "(PMDB-MA)",
+        "FB": "https://pt-br.facebook.com/Jo%C3%A3o-Alberto-de-Souza117348454977988/",
+        "TW": "https://twitter.com/senjoaoalberto",
+        "Email": "joao.alberto.souza@senador.leg.br",
+        "Tel": "(61) 3303-6349 / 6352"
+    },
+    {
+        "Nome": "José Maranhão",
+        "partido": "(PMDB-PB)",
+        "FB": "https://pt-br.facebook.com/zemaranhao",
+        "TW": "https://twitter.com/zemaranhaojp",
+        "Email": "jose.maranhao@senador.leg.br",
+        "Tel": "(61) 3303-6490 / 6485"
+    },
+    {
+        "Nome": "Marta Suplicy",
+        "partido": "(PMDB-SP)",
+        "FB": "https://pt-br.facebook.com/MartaSenadora",
+        "TW": "https://twitter.com/martasuplicy_",
+        "Email": "marta.suplicy@senadora.leg.br",
+        "Tel": "(61) 3303-6510 / 6514"
+    },
+    {
+        "Nome": "Raimundo Lira",
+        "partido": "(PMDB-PB)",
+        "FB": "https://www.facebook.com/SenadorRaimundoLira",
+        "TW": "https://twitter.com/raimundolirapb?lang=pt",
+        "Email": "raimundo.lira@senador.leg.br",
+        "Tel": "(61) 3303-6747 / 6754"
+    },
+    {
+        "Nome": "Renan Calheiros",
+        "partido": "(PMDB-AL)",
+        "FB": "https://www.facebook.com/renancalheirosoficial/",
+        "TW": "https://twitter.com/renancalheiros",
+        "Email": "renan.calheiros@senador.leg.br",
+        "Tel": "(61) 3303-2261"
+    },
+    {
+        "Nome": "Ricardo Ferraço",
+        "partido": "(PMDB-ES)",
+        "FB": "https://pt-br.facebook.com/RicardoFerraco",
+        "TW": "https://twitter.com/ricardoferraco",
+        "Email": "ricardo.ferraco@senador.leg.br",
+        "Tel": "(61) 3303-6590 / 6593"
+    },
+    {
+        "Nome": "Roberto Requião",
+        "partido": "(PMDB-PR)",
+        "FB": "https://pt-br.facebook.com/robertorequiao/",
+        "TW": "https://twitter.com/requiaopmdb",
+        "Email": "roberto.requiao@senador.leg.br",
+        "Tel": "(61) 3303-6623 / 6624 / 6621 / 6625"
+    },
+    {
+        "Nome": "Romero Jucá",
+        "partido": "(PMDB-RR)",
+        "FB": "https://www.facebook.com/senromerojuca/",
+        "TW": "https://twitter.com/senromerojuca",
+        "Email": "romero.juca@senador.leg.br",
+        "Tel": "(61) 3303-2115 / 2111 / 2119"
+    },
+    {
+        "Nome": "Rose de Freitas",
+        "partido": "(PMDB-ES)",
+        "FB": "https://pt-br.facebook.com/senadorarosedefreitas",
+        "TW": "https://twitter.com/senadorarose",
+        "Email": "rose.freitas@senadora.leg.br",
+        "Tel": "(61) 3303-1156"
+    },
+    {
+        "Nome": "Sandra Braga",
+        "partido": "(PMDB-AM)",
+        "FB": "Não encontrado.",
+        "TW": "Não encontrado.",
+        "Email": "sandrabraga@senadora.leg.br",
+        "Tel": "(61) 3303-6230 / 6227"
+    },
+    {
+        "Nome": "Simone Tebet",
+        "partido": "(PMDB-MS)",
+        "FB": "https://pt-br.facebook.com/simonetebet",
+        "TW": "https://twitter.com/SimoneTebetms",
+        "Email": "simone.tebet@senadora.leg.br",
+        "Tel": "(61) 3303-1128"
+    },
+    {
+        "Nome": "Valdir Raupp",
+        "partido": "(PMDB-RO)",
+        "FB": "https://pt-br.facebook.com/senadorrauppro",
+        "TW": "https://twitter.com/senadorraupp",
+        "Email": "valdir.raupp@senador.leg.br",
+        "Tel": "(61) 3303-2252 / 2253"
+    },
+    {
+        "Nome": "Waldemir Moka",
+        "partido": "(PMDB-MS)",
+        "FB": "https://www.facebook.com/SenadorWaldemirMOKA",
+        "TW": "https://twitter.com/Senador_Moka",
+        "Email": "waldemir.moka@senador.leg.br",
+        "Tel": "(61) 3303-6767 / 6768"
+    }
+]

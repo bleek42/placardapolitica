@@ -1,0 +1,17 @@
+<p>Login in below using your registered email and password.</p>
+
+<form [formGroup]="loginForm" (ngSubmit)="submit()" class="form">
+
+  <mat-form-field>
+    <mat-label>{{'email' | translate}}</mat-label>
+    <input matInput type="email" placeholder="Ex. myemail@test.com" formControlName="user_name" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>{{'Password' | translate}}</mat-label>
+    <input matInput type="password" formControlName="password" required>
+  </mat-form-field>
+  <button mat-raised-button color="primary">{{'Login' | translate}}</button>
+
+  <p *ngIf="error">{{error}}</p>
+</form>

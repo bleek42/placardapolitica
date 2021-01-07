@@ -1,0 +1,48 @@
+<!-- Highlight Card -->
+<div *ngIf="board" class="header flexrow">
+
+    <div>
+        <h1>{{board.title}}</h1>
+        <h2>{{board.description}}</h2>
+        <h3>{{'Ajude-nos a montar' | translate}}</h3>
+        <p>{{'Vá em redes sociais, mídia e a internet em geral para encontrar dados sobre
+            este assunto. Assim você pode colaborar a montar os dados deste placar' | translate}}
+            {{'Compartilhe' | translate }}: <a href="https://twitter.com/intent/tweet?button_hashtag=PlacarDaPolitica"
+                class="twitter-hashtag-button" data-show-count="false">{{'Tweet #PlacarDaPolitica' | translate}}</a>
+        </p>
+
+    </div>
+
+
+    <div *ngIf="board.propositions && board.propositions.length > 0">
+        <h3 class="title">Proposições e andamento associado a este placar</h3>
+        <div *ngFor="let prop of board.propositions" class="card">
+            <app-law [law]="prop.proposition" [owner]="owner" [board]="board"></app-law>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="row typebuttons" *ngIf="manyBoards && changeData">
+    <button mat-button class="buttontab" color="primary" *ngIf="board.house" [class.active]="type=='house'"
+        (click)="changeData('house')">{{'Deputados' | translate}}</button>
+    <button mat-button class="buttontab" color="primary" *ngIf="board.senate" [class.active]="type=='senate'"
+        (click)="changeData('senate')">{{'Senadores' | translate}}</button>
+    <a mat-button class="buttontab" color="primary" *ngIf="board.state" [class.active]="type=='state'"
+        [routerLink]="['/geo/state/'+board.slug]">{{'Estado' | translate}}</a>
+    <a mat-button class="buttontab" color="primary" *ngIf="board.city" [class.active]="type=='city'"
+        [routerLink]="['/geo/city/'+ board.slug + '/mg']">{{'Cidade' | translate}}</a>
+</div>
+
+<div class="row typebuttons" *ngIf="manyBoards && !changeData">
+    <a mat-button class="buttontab" color="primary" *ngIf="board.house"
+        [routerLink]="['/boards/house/'+board.slug]">{{'Deputados' | translate}}</a>
+    <a mat-button class="buttontab" color="primary" *ngIf="board.senate"
+        [routerLink]="['/boards/'+board.slug]">{{'Senadores' | translate}}</a>
+    <a mat-button class="buttontab" color="primary" *ngIf="board.state"
+        [routerLink]="['/geo/state/'+board.slug]">{{'Estado' | translate}}</a>
+    <a mat-button class="buttontab" color="primary" *ngIf="board.city"
+        [routerLink]="['/geo/city/'+ board.slug + '/mg']">{{'Cidade' | translate}}</a>
+</div>

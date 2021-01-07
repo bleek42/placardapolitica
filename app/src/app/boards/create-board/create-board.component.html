@@ -1,0 +1,160 @@
+<section *ngIf="boardForm">
+    <h2>Crie um novo placar</h2>
+    <form [formGroup]="boardForm" (ngSubmit)="submit()" class="form">
+        <mat-form-field>
+            <mat-label>{{'Título' | translate}}</mat-label>
+            <input matInput placeholder="Ex. Quem apoia que a lei X seja aprovada" formControlName="title" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>{{'Descrição' | translate}}</mat-label>
+            <textarea matInput
+                placeholder="Explique mais o tema em discussão, como as pessoas podem achar opiniões a respeito.."
+                formControlName="description"></textarea>
+        </mat-form-field>
+
+        <div class="boardtypes marginbottom">
+            <h3>
+                <mat-label>{{'Criar um placar com' | translate}}</mat-label>
+            </h3>
+
+            <section class="flexcolumn">
+                <div>
+                    <mat-checkbox formControlName="house">{{'Deputados' | translate}}</mat-checkbox>
+                    <p>
+                        Crie um placar utilizando a lista de deputados federais com mandato vigente
+                    </p>
+                    <div *ngIf="boardForm.value.house">
+                        <h3>O tema deste placar já tem uma proposta em andamento na Câmara dos deputados?</h3>
+                        <input matInput placeholder="Ex. PL 1485/2019" formControlName="lawHouse" required>
+                        <button mat-button color="primary" class="margintop" type="button"
+                            (click)="searchLaw()">{{'Pesquisar Leis' | translate}}</button>
+
+
+                        <div *ngIf="lawsHouse" class="laws">
+                            <ul class="flexrow">
+                                <li *ngFor="let law of lawsHouse">
+                                    <app-law [law]="law" [addLaw]="addLawHouse"></app-law>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div *ngIf="lawHouse">
+                            <h4>
+                                Proposta encontrada, veja aqui mais informações:
+                            </h4>
+                            <app-law [law]="lawHouse"></app-law>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+                <div>
+                    <mat-checkbox formControlName="senate">{{'Senate' | translate}}</mat-checkbox>
+                    <p>
+                        Crie um placar utilizando os senadores com mandato vigente
+                    </p>
+                    <div *ngIf="boardForm.value.senate">
+                        <h3>O tema deste placar já tem uma proposta em andamento no Senado Federal?</h3>
+                        <input matInput placeholder="Ex. PL 1485/2019" formControlName="lawSenate" required>
+                        <button mat-button color="primary" class="margintop" type="button"
+                            (click)="searchLaw()">{{'Pesquisar Leis' | translate}}</button>
+
+                        <div *ngIf="lawsSenate" class="laws">
+                            <ul class="flexrow">
+                                <li *ngFor="let senate of lawsSenate">
+                                    <app-law [law]="senate" [addLaw]="addLawSenate"></app-law>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div *ngIf="lawSenate">
+                            <h4>
+                                Proposta encontrada, veja aqui mais informações:
+                            </h4>
+                            <app-law [law]="lawSenate"></app-law>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <mat-checkbox formControlName="state">{{'Estados' | translate}}</mat-checkbox>
+                    <p>
+                        Crie um placar utilizando os estados brasileiros
+                    </p>
+                </div>
+
+                <div>
+                    <mat-checkbox formControlName="city">{{'Cidades' | translate}}</mat-checkbox>
+                    <p>
+                        Crie um placar utilizando todas as cidades do Brasil e agrupados por estados brasileiros
+                    </p>
+                </div>
+
+            </section>
+        </div>
+
+
+        <mat-form-field appearance="fill">
+            <mat-label>{{'Choose Country' | translate }}</mat-label>
+            <mat-select formControlName="country" required>
+                <mat-option *ngFor="let country of countries" [value]="country">{{country | translate}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <div appearance="fill">
+            <mat-radio-group formControlName="valueType" aria-label="Escolha um tipo de resposta" required
+                class="flexcolumn">
+
+                <div>
+                    <mat-radio-button value="boolean">Sim ou Não</mat-radio-button>
+                    <p>
+                        São respostas do tipo Sim ou Não, por exemplo:
+                        O seu placar deseja saber se políticos são à favor ou contra uma lei, ou se um estado tem
+                        adotado uma política ou não.
+
+                    </p>
+                </div>
+
+                <div>
+                    <mat-radio-button value="currency">Dinheiro</mat-radio-button>
+                    <p>
+                        São respostas que envolvem quantias de dinheiro, por exemplo:
+                        O seu placar monita quanto foi gasto por estado para realizar uma política ou uma ação.
+                        Ou quanto um político gastou em um determinado tema.
+
+                    </p>
+                </div>
+
+                <div>
+                    <mat-radio-button value="number">Número</mat-radio-button>
+                    <p>
+                        São respostas do tipo número, para se monitorar valores quantitativos como por exemplo:
+                        O seu placar deseja saber quantos casos de pessoas infectadas em uma determinada cidade ou
+                        estado.
+
+                    </p>
+                </div>
+
+                <div>
+                    <mat-radio-button value="date">Data</mat-radio-button>
+                    <p>
+                        Respostas do tipo Data podem ajudar a criar placar sobre assuntos temporaris por exemplo:
+                        O seu placar deseja saber se políticos são à favor ou contra uma lei, ou se um estado tem
+                        adotado uma política ou não.
+
+                    </p>
+                </div>
+
+            </mat-radio-group>
+
+        </div>
+
+        <button mat-button color="primary" class="margintop">{{'createBoard' | translate}}</button>
+    </form>
+</section>
